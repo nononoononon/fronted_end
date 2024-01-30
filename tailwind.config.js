@@ -1,0 +1,41 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        black: "var(--black)",
+        "gray-700": "var(--gray-700)",
+        "neutral-grey": "var(--neutral-grey)",
+        "neutral-white": "var(--neutral-white)",
+        "primary-slate-200": "var(--primary-slate-200)",
+        "primary-slate-300": "var(--primary-slate-300)",
+        "primary-slate-700": "var(--primary-slate-700)",
+        "primary-slate-750": "var(--primary-slate-750)",
+        "primary-slate-800": "var(--primary-slate-800)",
+        "primary-slate-900": "var(--primary-slate-900)",
+        "slate-3": "var(--slate-3)",
+        white: "var(--white)",
+        "zinc-200": "#DDDCE0",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        "body-1-normal": "var(--body-1-normal-font-family)",
+        "headline-h1": "var(--headline-h1-font-family)",
+        "headline-h2": "var(--headline-h2-font-family)",
+        "headline-h3": "var(--headline-h3-font-family)",
+        "headline-h4": "var(--headline-h4-font-family)",
+        "headline-h5": "var(--headline-h5-font-family)",
+        "headlines-h1": "var(--headlines-h1-font-family)",
+        "headlines-h4": "var(--headlines-h4-font-family)",
+        "paragraph-p1": "var(--paragraph-p1-font-family)",
+        "paragraph-p2": "var(--paragraph-p2-font-family)",
+        "paragraph-p3": "var(--paragraph-p3-font-family)",
+        "paragraphs-p2": "var(--paragraphs-p2-font-family)",
+        "paragraphs-p3": "var(--paragraphs-p3-font-family)",
+      },
+    },
+  },
+  plugins: [],
+};
